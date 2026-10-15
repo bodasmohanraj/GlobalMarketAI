@@ -1,0 +1,5 @@
+horizon,minutes,input_rows,exact_future_matches,missing_future_matches,complete_feature_label_rows,target_time_mismatches
+15min,15,13518,13367,151,10963,0
+30min,30,13518,13217,301,10813,0
+1hour,60,13518,12921,597,10517,0
+4hour,240,13518,12525,993,10121,0

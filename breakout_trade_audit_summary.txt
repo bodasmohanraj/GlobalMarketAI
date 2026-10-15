@@ -1,0 +1,42 @@
+BREAKOUT_20 TRADE AUDIT SUMMARY
+============================================================
+Input trade file: sr_holdout_trades.csv
+Source candle file: gold_data.csv
+Trades audited: 154
+Holdout starts: 2026-04-22 10:00:00+00:00
+Audit CSV: breakout_trade_audit.csv
+
+CHECK RESULTS
+------------------------------------------------------------
+entry_time_available: pass=154, fail=0, unknown=0
+exit_time_available: pass=154, fail=0, unknown=0
+entry_price_available: pass=154, fail=0, unknown=0
+exit_price_available: pass=154, fail=0, unknown=0
+return_available: pass=154, fail=0, unknown=0
+entry_time_valid: pass=154, fail=0, unknown=0
+exit_time_valid: pass=154, fail=0, unknown=0
+exit_after_entry: pass=154, fail=0, unknown=0
+exit_within_5_hours: pass=154, fail=0, unknown=0
+entry_in_holdout: pass=154, fail=0, unknown=0
+entry_timestamp_is_candle: pass=154, fail=0, unknown=0
+exit_timestamp_is_candle: pass=154, fail=0, unknown=0
+entry_matches_open: pass=154, fail=0, unknown=0
+exit_matches_close: pass=154, fail=0, unknown=0
+exit_matches_rule: pass=154, fail=0, unknown=0
+return_matches_prices: pass=154, fail=0, unknown=0
+entry_is_next_candle: pass=154, fail=0, unknown=0
+overlaps_previous_trade: pass=0, fail=154, unknown=0
+
+ISSUES
+------------------------------------------------------------
+Trades with one or more detected issues: 0
+Total issue flags: 0
+
+IMPORTANT LIMITATIONS
+------------------------------------------------------------
+1. This audit uses the assumed next-candle-open entry and 4-to-5-hour exit conventions.
+2. A failed price check may indicate a different original execution convention, not necessarily a bug.
+3. Signal-to-entry timing cannot be confirmed if signal_time was not saved in the trade file.
+4. The script cannot prove the original signal used no future data.
+5. Costs, spread, slippage, position sizing, and live execution are not validated here.
+6. No detected issues does not prove strategy profitability.

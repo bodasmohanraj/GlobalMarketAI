@@ -1,0 +1,2 @@
+strategy,trades,candidates,missing_price_candidates,rejected_fold_candidates,cost_per_side_bps,slippage_per_side_bps,round_trip_cost_bps,gross_mean_return,net_mean_return,net_median_return,net_win_rate,net_compounded_return,max_drawdown,note
+next_5m_open_entry_60m_hold_1h_OOS,438,5193,27,39,2.0,1.0,5.999999999999999,2.4694073863666297e-05,-0.0005753059261363337,-0.00048347487088930806,0.4155251141552511,-0.22399334239799817,-0.22645582002677733,Illustrative costs; uses next-bar Open prices. Not a broker execution simulation or evidence of profitability.

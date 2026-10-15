@@ -1,0 +1,2 @@
+datetime,close,prob_up,prob_down,model_signal,holdout_accuracy,majority_baseline,note
+2026-10-14 09:00:00+00:00,4165.89990234375,0.5192234971116483,0.4807765028883517,NO CLEAR SIGNAL,0.48633316142341415,0.5208870551830841,Research only; forecasting edge not established.

@@ -1,0 +1,4 @@
+strategy,periods,trades,exposure_pct,gross_return_pct,net_return_pct,max_drawdown_pct,net_win_rate_pct,total_costs_currency,final_equity
+AI threshold 0.58,364,0,0.0,0.0,0.0,0.0,,0.0,100000.0
+Historical-rate baseline 0.58,364,0,0.0,0.0,0.0,0.0,,0.0,100000.0
+Always flat,364,0,0.0,0.0,0.0,0.0,,0.0,100000.0

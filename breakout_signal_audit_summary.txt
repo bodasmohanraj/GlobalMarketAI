@@ -1,0 +1,16 @@
+BREAKOUT_20 SIGNAL AUDIT
+============================================================
+Source candles: 13727
+Holdout start: 2026-04-22 10:00:00+00:00
+Holdout breakout signal candles: 184
+Recorded breakout_20 trades: 154
+Trade records with issues: 0
+Total issue flags: 0
+Signal candles without a recorded trade: 30
+
+NOTE: Signals without trades may be skipped due to an existing
+position, unavailable exit candle, or other trade eligibility rule.
+This report audits recorded trades; it does not fully audit every
+trade-selection decision or establish profitability.
+
+Detailed report: breakout_signal_audit.csv

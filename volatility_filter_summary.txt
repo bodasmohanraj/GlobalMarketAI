@@ -1,0 +1,5 @@
+Research-only walk-forward volatility comparison.
+Thresholds are learned from history before each test fold.
+Each variant starts each fold with the same initial equity.
+The model uses the same signal and exit rules for both variants.
+Review drawdown and fold-level results, not just total P&L.

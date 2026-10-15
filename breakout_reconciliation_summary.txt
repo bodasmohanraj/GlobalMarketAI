@@ -1,0 +1,20 @@
+BREAKOUT_20 TRADE RECONCILIATION
+=============================================
+Valid candles: 13727
+Holdout start: 2026-04-22 10:00:00+00:00
+Signal candles in holdout: 184
+Saved breakout_20 trades: 154
+Signals matched to saved trades: 154
+Saved signal timestamps not found in reconstructed signals: 0
+Duplicate saved signal timestamps: 0
+Reconciliation mismatches: 0
+
+Expected status counts:
+expected_status
+TRADE      154
+SKIPPED     30
+
+Reconciliation results:
+reconciliation
+PASS: timestamps and direction match    154
+PASS: no trade expected                  30

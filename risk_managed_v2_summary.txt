@@ -1,0 +1,37 @@
+RISK-MANAGED BACKTEST V2
+=============================================
+Valid candles: 13727
+Initial equity: 100000.00
+Final equity: 96049.97
+Net return: -3.950%
+Completed trades: 341
+Profit factor after costs: 0.956
+Overall marked-to-market max drawdown: -11.746%
+Worst per-trade marked drawdown: -2.146%
+Risk budget: 0.50% equity
+Stop: 1.00 x ATR(14)
+Reward/risk: 1:2.00
+Round-trip cost: 0.050% of entry notional
+
+EXIT REASONS
+exit_reason
+STOP          213
+TARGET        118
+TIME_EXIT       8
+TARGET_GAP      2
+
+FOLD RESULTS
+ fold                test_start                  test_end_exclusive  trades  starting_equity  ending_equity      net_pnl  return_pct  win_rate_pct  profit_factor  fold_max_drawdown_pct
+    1 2025-07-30 12:00:00+00:00           2025-10-23 19:00:00+00:00      80    100000.000000   96868.016533 -3131.983467   -3.131983     31.250000       0.823557              -5.926974
+    2 2025-10-23 19:00:00+00:00           2026-01-23 10:00:00+00:00      62     96868.016533   91604.078980 -5263.937553   -5.434134     32.258065       0.719160              -9.988958
+    3 2026-01-23 10:00:00+00:00           2026-04-22 10:00:00+00:00      64     91604.078980   91668.043648    63.964668    0.069827     37.500000       1.003411              -5.749670
+    4 2026-04-22 10:00:00+00:00           2026-07-17 20:00:00+00:00      69     91668.043648   94397.302494  2729.258846    2.977329     39.130435       1.148633              -4.140577
+    5 2026-07-17 20:00:00+00:00 2026-10-12 14:00:00.000000001+00:00      66     94397.302494   96049.968544  1652.666050    1.750756     42.424242       1.099778              -4.254533
+
+LIMITATIONS
+- Intrabar drawdown is approximated using candle closes, not every price tick.
+- Position sizing uses abstract units, not actual gold contract specifications.
+- Costs, slippage, spread, margin, and broker execution are simplified.
+- OHLC candles cannot reveal exact stop/target order when both are touched.
+- No trade carries across fold boundaries.
+- This is a fixed-rule historical simulation, not a profitability guarantee.

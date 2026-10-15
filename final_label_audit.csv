@@ -1,0 +1,5 @@
+horizon,exact_future_matches,missing_future,label_mismatches
+15min,13367,151,0
+30min,13217,301,0
+1hour,12921,597,0
+4hour,12525,993,0

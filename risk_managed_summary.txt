@@ -1,0 +1,38 @@
+RISK-MANAGED BREAKOUT BACKTEST
+=============================================
+Valid candles: 13727
+Initial simulated equity: 100000.00
+Final simulated equity: 96322.56
+Total return after assumed costs: -3.677%
+Completed trades: 340
+Risk budget: 0.50% of current equity
+Stop distance: 1.00 x ATR(14)
+Reward/risk ratio: 1:2.00
+Round-trip cost: 0.050% of entry notional
+Maximum notional exposure: 1.0 x equity
+Maximum holding: 24 available candles
+Profit factor after costs: 0.959
+Maximum drawdown: -11.478%
+
+Exit reasons:
+exit_reason
+STOP         212
+TARGET       120
+TIME_EXIT      8
+
+Fold results:
+ fold                test_start                  test_end_exclusive  trades  starting_equity  ending_equity      net_pnl  return_pct  win_rate_pct  profit_factor  max_drawdown_pct
+    1 2025-07-30 12:00:00+00:00           2025-10-23 19:00:00+00:00      80    100000.000000   96969.710153 -3030.289847   -3.030290     32.500000       0.828792         -5.683635
+    2 2025-10-23 19:00:00+00:00           2026-01-23 10:00:00+00:00      62     96969.710153   91694.631644 -5275.078509   -5.439924     32.258065       0.718881        -10.382504
+    3 2026-01-23 10:00:00+00:00           2026-04-22 10:00:00+00:00      64     91694.631644   91819.939824   125.308180    0.136658     37.500000       1.006673        -11.478450
+    4 2026-04-22 10:00:00+00:00           2026-07-17 20:00:00+00:00      68     91819.939824   94597.985239  2778.045415    3.025536     39.705882       1.151421        -11.478450
+    5 2026-07-17 20:00:00+00:00 2026-10-12 14:00:00.000000001+00:00      66     94597.985239   96322.556752  1724.571512    1.823053     42.424242       1.103856        -11.478450
+
+LIMITATIONS
+- Quantity is abstract; this is not actual GC futures contract sizing.
+- No real broker margin, exchange fees, spread, or slippage model.
+- Cost is charged once per completed trade as specified.
+- Stop/target order priority is approximated from OHLC candles.
+- ATR stop distance and maximum holding period are assumptions.
+- The final candle's completeness has not been verified.
+- Historical performance does not establish a profitable edge.

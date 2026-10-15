@@ -1,0 +1,5 @@
+horizon,horizon_minutes,input_rows,exact_future_matches,missing_exact_future,label_rows_with_complete_features,target_time_mismatch_count
+15min,15,13518,13367,151,11903,0
+30min,30,13518,13217,301,11753,0
+1hour,60,13518,12921,597,11457,0
+4hour,240,13518,12525,993,11061,0

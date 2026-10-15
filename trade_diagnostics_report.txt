@@ -1,0 +1,67 @@
+TRADE DIAGNOSTICS REPORT
+=============================================
+Trades analysed: 341
+Total net P&L: -3950.03
+Win rate: 36.36%
+Profit factor: 0.956
+
+DIRECTION SUMMARY
+group_type group  trades  wins  losses  win_rate_pct      net_pnl  mean_net_pnl  median_net_pnl  gross_profit   gross_loss  profit_factor  mean_holding_hours  mean_net_R
+ direction  LONG     201    72     129     35.820896 -3330.674523    -16.570520     -332.546958  48648.570799 51979.245322       0.935923            6.905473         NaN
+ direction SHORT     140    52      88     37.142857  -619.356934     -4.423978     -381.672516  37576.194746 38195.551680       0.983785            6.057143         NaN
+
+EXIT REASON SUMMARY
+ group_type      group  trades  wins  losses  win_rate_pct       net_pnl  mean_net_pnl  median_net_pnl  gross_profit   gross_loss  profit_factor  mean_holding_hours  mean_net_R
+exit_reason       STOP     213     0     213           0.0 -89692.949414   -421.093659     -437.210007      0.000000 89692.949414       0.000000            4.873239         NaN
+exit_reason     TARGET     118   118       0         100.0  84560.281736    716.612557      735.732726  84560.281736    -0.000000            inf            7.322034         NaN
+exit_reason TARGET_GAP       2     2       0         100.0   1363.408384    681.704192      681.704192   1363.408384    -0.000000            inf           55.000000         NaN
+exit_reason  TIME_EXIT       8     4       4          50.0   -180.772163    -22.596520      -15.864497    301.075425   481.847588       0.624835           28.000000         NaN
+
+FOLD SUMMARY
+group_type group  trades  wins  losses  win_rate_pct      net_pnl  mean_net_pnl  median_net_pnl  gross_profit   gross_loss  profit_factor  mean_holding_hours  mean_net_R
+      fold     1      80    25      55     31.250000 -3131.983467    -39.149793     -263.765895  14618.697493 17750.680959       0.823557            7.325000         NaN
+      fold     2      62    20      42     32.258065 -5263.937553    -84.902219     -399.237257  13479.636398 18743.573951       0.719160            5.580645         NaN
+      fold     3      64    24      40     37.500000    63.964668      0.999448     -455.299401  18818.697695 18754.733027       1.003411            7.625000         NaN
+      fold     4      69    27      42     39.130435  2729.258846     39.554476     -376.830395  21091.696877 18362.438031       1.148633            5.985507         NaN
+      fold     5      66    28      38     42.424242  1652.666050     25.040395     -361.153438  18216.037083 16563.371033       1.099778            6.106061         NaN
+
+VOLATILITY SUMMARY
+group_type  group  trades  wins  losses  win_rate_pct      net_pnl  mean_net_pnl  median_net_pnl  gross_profit   gross_loss  profit_factor  mean_holding_hours  mean_net_R
+volatility   high     114    39      75     34.210526 -5378.250798    -47.177639     -488.770714  32432.249693 37810.500490       0.857758            9.710526         NaN
+volatility    low     114    38      76     33.333333 -5186.169754    -45.492717     -281.168503  18883.880475 24070.050229       0.784538            5.771930         NaN
+volatility medium     113    47      66     41.592920  6614.389095     58.534417     -403.504531  34908.635378 28294.246283       1.233772            4.168142         NaN
+
+COST SENSITIVITY
+      group_type                   group  trades  wins  losses  win_rate_pct       net_pnl  mean_net_pnl  median_net_pnl  gross_profit    gross_loss  profit_factor  mean_holding_hours  mean_net_R
+cost_sensitivity 0.05%_of_entry_notional     341   124     217     36.363636  -3949.935452    -11.583388     -346.618316  86227.791156  90177.726608       0.956198            6.557185         NaN
+cost_sensitivity 0.10%_of_entry_notional     341   122     219     35.777126 -19001.906844    -55.724067     -394.215316  80814.710436  99816.617281       0.809632            6.557185         NaN
+cost_sensitivity 0.15%_of_entry_notional     341   122     219     35.777126 -34053.878236    -99.864746     -441.812315  75437.395286 109491.273522       0.688981            6.557185         NaN
+
+10 WORST TRADES
+ fold direction                entry_time                 exit_time exit_reason   gross_pnl  total_cost     net_pnl
+    2      LONG 2025-10-29 08:00:00+00:00 2025-10-29 18:00:00+00:00        STOP -497.957307   45.623823 -543.581130
+    2     SHORT 2025-10-31 17:00:00+00:00 2025-10-31 17:00:00+00:00        STOP -492.549535   48.470506 -541.020041
+    5      LONG 2026-09-11 13:00:00+00:00 2026-09-11 14:00:00+00:00        STOP -494.737446   45.419635 -540.157081
+    2     SHORT 2025-11-13 19:00:00+00:00 2025-11-13 21:00:00+00:00        STOP -491.677904   48.121829 -539.799733
+    5     SHORT 2026-09-01 20:00:00+00:00 2026-09-02 13:00:00+00:00        STOP -491.057254   47.508513 -538.565767
+    1     SHORT 2025-08-08 18:00:00+00:00 2025-08-08 20:00:00+00:00        STOP -488.029305   50.243744 -538.273049
+    2      LONG 2025-10-30 20:00:00+00:00 2025-10-31 03:00:00+00:00        STOP -495.239401   42.733864 -537.973265
+    5      LONG 2026-09-17 13:00:00+00:00 2026-09-17 18:00:00+00:00        STOP -490.482992   47.397650 -537.880642
+    2     SHORT 2025-11-03 01:00:00+00:00 2025-11-03 01:00:00+00:00        STOP -489.844435   47.387521 -537.231956
+    2     SHORT 2025-11-17 20:00:00+00:00 2025-11-17 20:00:00+00:00        STOP -493.181761   43.933644 -537.115405
+
+10 BEST TRADES
+ fold direction                entry_time                 exit_time exit_reason  gross_pnl  total_cost    net_pnl
+    1     SHORT 2025-08-11 01:00:00+00:00 2025-08-11 12:00:00+00:00      TARGET 997.051995   41.713481 955.338514
+    2     SHORT 2025-10-28 07:00:00+00:00 2025-10-28 08:00:00+00:00      TARGET 986.487138   43.739569 942.747569
+    2     SHORT 2025-10-27 09:00:00+00:00 2025-10-27 14:00:00+00:00      TARGET 977.122829   40.691939 936.430890
+    1     SHORT 2025-10-21 13:00:00+00:00 2025-10-21 14:00:00+00:00      TARGET 966.753289   34.992046 931.761243
+    4     SHORT 2026-06-23 03:00:00+00:00 2026-06-24 01:00:00+00:00      TARGET 956.792385   25.801276 930.991109
+    5     SHORT 2026-08-28 16:00:00+00:00 2026-08-28 16:00:00+00:00      TARGET 964.913715   41.123108 923.790608
+    1      LONG 2025-10-12 23:00:00+00:00 2025-10-13 13:00:00+00:00      TARGET 959.682551   38.004600 921.677951
+    4     SHORT 2026-06-24 12:00:00+00:00 2026-06-24 12:00:00+00:00      TARGET 960.804872   45.429791 915.375082
+    4      LONG 2026-07-02 13:00:00+00:00 2026-07-03 01:00:00+00:00      TARGET 961.362356   48.501273 912.861083
+    2     SHORT 2025-12-29 14:00:00+00:00 2025-12-29 14:00:00+00:00      TARGET 946.908942   35.337190 911.571752
+
+Interpretation note: these are descriptive summaries of the same historical test trades.
+They are exploratory and do not establish predictive power or future profitability.

@@ -1,0 +1,4 @@
+Strategy,Evaluation periods,Trades / entries,Final equity,Total return (%),Maximum drawdown (%),Positive period rate (%)
+AI strategy,22,17,98205.08043172138,-1.794919568278619,-2.7032751020477086,47.05882352941176
+Buy and hold,22,1,101437.31019421121,1.4373101942112054,-2.111155428120892,63.63636363636363
+No trade,22,0,100000.0,0.0,0.0,

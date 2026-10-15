@@ -1,0 +1,12 @@
+metric,original_momentum,high_volatility_filter
+test_intervals,912.0,912.0
+long_intervals,451.0,431.0
+exposure_pct,49.45175438596491,47.25877192982456
+position_changes_and_reentries,495.0,465.0
+gross_total_return_pct,3.655711303079179,16.08524976068686
+net_total_return_pct,-19.075744885364653,-7.997457335835545
+mean_gross_return_per_interval_pct,0.005437635049923704,0.017656248547964316
+mean_net_return_per_interval_pct,-0.021700522844813143,-0.007837172504667266
+long_interval_win_rate_pct,49.2239467849224,51.04408352668214
+max_drawdown_pct,-26.870769523174665,-15.831431660984475
+total_transaction_cost_pct,24.750000000000004,23.25

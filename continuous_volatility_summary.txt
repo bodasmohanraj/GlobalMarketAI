@@ -1,0 +1,7 @@
+Continuous-equity walk-forward volatility comparison.
+Both variants start with the same initial equity and carry their own equity forward across folds.
+Volatility thresholds use data strictly before each fold.
+The original breakout, ATR, stop, target, position-sizing, and transaction-cost rules are preserved.
+Positions do not cross fold boundaries.
+Drawdown measures realized trade equity, not complete intrabar mark-to-market drawdown.
+This is historical research, not a guarantee of future results.

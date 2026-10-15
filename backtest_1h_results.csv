@@ -1,0 +1,2 @@
+strategy,trades,cost_per_side_bps,slippage_per_side_bps,total_cost_bps_round_trip,gross_mean_return,net_mean_return,net_median_return,net_win_rate,net_compounded_return,max_drawdown,flat_no_trade_return,note
+logistic_direction_non_overlapping_1h,446,2.0,1.0,6.0,2.928664503347033e-05,-0.0005707133549665295,-0.0005283020397331285,0.3991031390134529,-0.22598237664945775,-0.22840477653459546,0.0,Illustrative cost assumptions; not an execution-accurate backtest.
